@@ -1,6 +1,8 @@
 ﻿"use strict";
 
-import { renderResponse } from "./functions.js";
+import { renderResponse } from "../main/script/functions.js";
+
+alert(1);
 
 let fullName = {
   secondName: prompt("Введите фамилию"),

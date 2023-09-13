@@ -1,4 +1,4 @@
-import { renderResponse } from "./functions.js";
+import { renderResponse } from "../main/script/functions.js";
 
 let arrayWithRandom = [];
 function generateRandom(arg) {

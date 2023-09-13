@@ -3,5 +3,4 @@ function renderResponse(text) {
     .querySelector(".container")
     .insertAdjacentHTML("beforeend", `${text}`);
 }
-
 export { renderResponse };
