@@ -1,10 +1,17 @@
 import { renderResponse } from "../main/script/functions.js";
 
 let arrayWithRandom = [];
-function generateRandom(arg) {
-  return Math.floor(Math.random() * arg);
+function generateRandom(arg, arg2) {
+  return Math.floor(arg2 - Math.random() * arg);
 }
 
+function complexArray() {
+  for (let i = 0; i < 10; i++) {
+    let temp = generateRandom(10, -10);
+    console.log(temp);
+  }
+}
+complexArray();
 function fillArrayWithPositive(arr) {
   for (let i = 0; i < 10; i++) {
     arr.push(generateRandom(50));
