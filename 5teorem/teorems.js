@@ -2,6 +2,10 @@ function randomNumber(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
 }
 
+console.log("[Ошибка]: Введите число.");
+console.log("[Ошибка]: Вы ввели пустую строку, введите число");
+console.log("[Ошибка]: Введите положительное число. Ваш ввод: -69");
+
 //Теорема 9.1
 let myNumber = 10;
 
